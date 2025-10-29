@@ -3,7 +3,7 @@
 [HARMAN] 세미콘아카데미 – 시스템반도체 설계/검증 엔지니어(2기)
 교육 기간: 2025.10.13 ~ 2025.10.24
 
-<프로젝트 개요>
+📘 프로젝트 개요
 
 본 저장소는 Multi-Cycle RISC-V CPU 설계 및 AMBA (APB) 버스 적용 과정까지의
 학습 및 구현 결과를 포함한 SystemVerilog 기반 프로젝트 파일 모음입니다.
@@ -47,7 +47,7 @@ System_Verilog-MultiCycle_CPU_AMBA_BUS/
  ├── doc/                # Block diagrams / slides / notes
  └── README.md
 
-<결과 요약>
+🏁 결과 요약
 
 RV32I 명령어셋 전 타입 완성
 
