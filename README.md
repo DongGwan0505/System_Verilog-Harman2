@@ -51,8 +51,8 @@ System_Verilog-MultiCycle_CPU_AMBA_BUS/
 
 🏁 결과 요약
 
-✅ RV32I 명령어셋 전 타입 완성
-✅ Multi-Cycle FSM (FETCH → DECODE → EXEC → MEM → WB) 구현
-✅ AMBA APB 버스 및 GPO / GPI / GPIO 주변장치 연동
-✅ SystemVerilog Class 기반 자동 검증 환경 구성
-✅ Vivado Simulation PASS / Board 동작 검증 완료
+✅ RV32I 명령어셋 전 타입 완성  
+✅ Multi-Cycle FSM (FETCH → DECODE → EXEC → MEM → WB) 구현  
+✅ AMBA APB 버스 및 GPO / GPI / GPIO 주변장치 연동  
+✅ SystemVerilog Class 기반 자동 검증 환경 구성  
+✅ Vivado Simulation PASS / Board 동작 검증 완료  
