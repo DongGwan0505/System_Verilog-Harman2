@@ -15,17 +15,18 @@
 
 주요 내용: RV32I 명령어셋 기반 멀티사이클 CPU + APB 버스 + GPO / GPI / GPIO / UART 주변장치 통합
 
-🗓️ 일자별 진행 내역
-날짜	진행 내용
-25-10-13	R-type / I-type 명령어 완성 (RV32I 기본 코어)
-25-10-14	S-type (Store) 명령어 추가
-25-10-15	L-type (Load), B-type (Branch), U-type (LUI / AUIPC), J-type (JAL) 추가
-25-10-16	JL-type (JALR) 추가
-25-10-17	Multi-Cycle 구조 적용 (제어 FSM 도입)
-25-10-21	AMBA BUS Testbench 작성
-25-10-22	SystemVerilog Class 기반 검증 환경 구현
-25-10-23	GPO Peripheral (APB 연결) 통합
-25-10-24	GPI / GPIO Peripheral 추가 → MCU 완성
+🗓️ 일자별 진행 내역  
+
+25-10-13 | R-type / I-type 명령어 완성 (RV32I 기본 코어)  
+25-10-14 | S-type (Store) 명령어 추가  
+25-10-15 | L-type (Load), B-type (Branch), U-type (LUI/AUIPC), J-type (JAL) 추가  
+25-10-16 | JL-type (JALR) 추가  
+25-10-17 | Multi-Cycle 구조 적용 (제어 FSM 도입)  
+25-10-21 | AMBA BUS Testbench 작성  
+25-10-22 | SystemVerilog Class 기반 검증 환경 구현  
+25-10-23 | GPO Peripheral (APB 연결) 통합  
+25-10-24 | GPI / GPIO Peripheral 추가 → MCU 완성  
+
 ⚙️ 주요 기술 구성
 
 CPU Core: RV32I Multi-Cycle Processor (Control Unit + Datapath)
