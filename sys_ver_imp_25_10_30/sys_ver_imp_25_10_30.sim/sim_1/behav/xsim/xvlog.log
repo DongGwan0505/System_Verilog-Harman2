@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_10_30/sys_ver_imp_25_10_30.srcs/sources_1/imports/sys_ver_imp_25_10_30/AXI_Lite_Master.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_Lite_Master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_10_30/sys_ver_imp_25_10_30.srcs/sources_1/new/AXI_Lite_Slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_Lite_Slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_10_30/sys_ver_imp_25_10_30.srcs/sim_1/new/tb_AXI_Lite_Master_Slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_AXI_Lite_Master_Slave

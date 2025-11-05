@@ -1,0 +1,19 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 04a27b9585ab4a99a185174d2861eb1c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_AXI_Lite_Master_Slave_behav xil_defaultlib.tb_AXI_Lite_Master_Slave xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 32 for port 'addr' [C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_10_30/sys_ver_imp_25_10_30.srcs/sim_1/new/tb_AXI_Lite_Master_Slave.sv:36]
+WARNING: [VRFC 10-5021] port 'ARESETn' is not connected on this instance [C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_10_30/sys_ver_imp_25_10_30.srcs/sim_1/new/tb_AXI_Lite_Master_Slave.sv:30]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4468] File : C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_10_30/sys_ver_imp_25_10_30.srcs/sim_1/new/tb_AXI_Lite_Master_Slave.sv, Line : 61, RANDC variable size more than 8 bits. This will be treated as a RAND variable instead.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.host_if
+Compiling module xil_defaultlib.AXI_Lite_Master
+Compiling module xil_defaultlib.AXI_Lite_Slave
+Compiling module xil_defaultlib.tb_AXI_Lite_Master_Slave
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_AXI_Lite_Master_Slave_behav

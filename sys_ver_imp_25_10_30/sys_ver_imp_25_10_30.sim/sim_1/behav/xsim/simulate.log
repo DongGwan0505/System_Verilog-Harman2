@@ -1,0 +1,21 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[WRITE] addr = 0, wdata = 1d0b7e0b, rdata = xxxxxxxx
+[READ] addr = 0, wdata = 1d0b7e0b, rdata = 1d0b7e0b
+[WRITE] addr = c, wdata = cd48982b, rdata = 1d0b7e0b
+[READ] addr = c, wdata = cd48982b, rdata = cd48982b
+[WRITE] addr = 4, wdata = c292ddef, rdata = cd48982b
+[READ] addr = 4, wdata = c292ddef, rdata = c292ddef
+[WRITE] addr = 8, wdata = a248ab82, rdata = c292ddef
+[READ] addr = 8, wdata = a248ab82, rdata = a248ab82
+[WRITE] addr = 4, wdata = df9e5bfa, rdata = a248ab82
+[READ] addr = 4, wdata = df9e5bfa, rdata = df9e5bfa
+[WRITE] addr = 8, wdata = ef9143ae, rdata = df9e5bfa
+[READ] addr = 8, wdata = ef9143ae, rdata = ef9143ae
+[WRITE] addr = c, wdata = ee3ba1f4, rdata = ef9143ae
+[READ] addr = c, wdata = ee3ba1f4, rdata = ee3ba1f4
+[WRITE] addr = 0, wdata = 04afd52f, rdata = ee3ba1f4
+[READ] addr = 0, wdata = 04afd52f, rdata = 04afd52f
+[WRITE] addr = 0, wdata = cdd9fdef, rdata = 04afd52f
+[READ] addr = 0, wdata = cdd9fdef, rdata = cdd9fdef
+[WRITE] addr = c, wdata = f44118dd, rdata = cdd9fdef
