@@ -1,0 +1,16 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+[185000] TB: Send 0x41 on RX line
+[1146085000] PASS: Got 0x41
+[1146165000] TB: Send 0x42 on RX line
+[2292065000] PASS: Got 0x42
+[2292145000] TB: Send 0x43 on RX line
+[3438045000] PASS: Got 0x43
+[3438125000] TB: Send 0x55 on RX line
+[4584025000] PASS: Got 0x55
+[4584105000] TB: Send 0x30 on RX line
+[5730005000] PASS: Got 0x30
+[5730085000] TB: Send 0x31 on RX line
+[6875985000] PASS: Got 0x31
+==== SUMMARY: pass=6, fail=0 ====
+$finish called at time : 6876265 ns : File "C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_10_31/sys_ver_imp_25_10_31.srcs/sim_1/new/tb_axi_uart.sv" Line 250
