@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="helloworld_LEDBlink" location="C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_11_03/vitis/helloworld_LEDBlink" platform="C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_11_03/vitis/MicroBlaze_GPIO_wrapper/export/MicroBlaze_GPIO_wrapper/MicroBlaze_GPIO_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="helloworld_LEDBlink_system" sysConfig="MicroBlaze_GPIO_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="bf8465ea2382b16d73c4243215649479">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.2037739024">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1935123285" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
