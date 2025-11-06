@@ -1,0 +1,32 @@
+2025-11-04T17:30:49.829796900255-17:30:49 **** Incremental Build of configuration Debug for project fnd_counter ****
+000-make all 
+000-'Building file: ../src/driver/fnd/fnd.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/driver/fnd/fnd.o" -IC:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_11_04/vitis/SV_25_11_04_wrapper/export/SV_25_11_04_wrapper/sw/SV_25_11_04_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/driver/fnd/fnd.d" -MT"src/driver/fnd/fnd.o" -o "src/driver/fnd/fnd.o" "../src/driver/fnd/fnd.c"
+000-../src/driver/fnd/fnd.c: In function 'FND_DispNumber':
+000/fnd_counter/src/driver/fnd/fnd.c38-1-1implicit declaration of function 'FND_AllOff' [-Wimplicit-function-declaration]1-../src/driver/fnd/fnd.c:38:2: warning: implicit declaration of function 'FND_AllOff' [-Wimplicit-function-declaration]
+000-   38 |  FND_AllOff();
+000-      |  ^~~~~~~~~~
+000-../src/driver/fnd/fnd.c: At top level:
+000/fnd_counter/src/driver/fnd/fnd.c65-1-1conflicting types for 'FND_AllOff'1FND_AllOff../src/driver/fnd/fnd.c:65:6: warning: conflicting types for 'FND_AllOff'
+000-   65 | void FND_AllOff()
+000-      |      ^~~~~~~~~~
+000/fnd_counter/src/driver/fnd/fnd.c38-1-1previous implicit declaration of 'FND_AllOff' was here0-../src/driver/fnd/fnd.c:38:2: note: previous implicit declaration of 'FND_AllOff' was here
+000-   38 |  FND_AllOff();
+000-      |  ^~~~~~~~~~
+000-'Finished building: ../src/driver/fnd/fnd.c'
+000-' '
+000-'Building target: fnd_counter.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_11_04/vitis/SV_25_11_04_wrapper/export/SV_25_11_04_wrapper/sw/SV_25_11_04_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "fnd_counter.elf"  ./src/driver/led/led.o  ./src/driver/fnd/fnd.o  ./src/device/gpio/gpio.o  ./src/ap/ap.o  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: fnd_counter.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size fnd_counter.elf  |tee "fnd_counter.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  23856	   1308	   3228	  28392	   6ee8	fnd_counter.elf
+000-'Finished building: fnd_counter.elf.size'
+000-' '
+00255-
+17:30:51 Build Finished (took 1s.368ms)
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="fnd_counter" location="C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_11_04/vitis/fnd_counter" platform="C:/Working/FPGA_Harman_sys_verilog_improve/sys_ver_imp_25_11_04/vitis/SV_25_11_04_wrapper/export/SV_25_11_04_wrapper/SV_25_11_04_wrapper.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="fnd_counter_system" sysConfig="SV_25_11_04_wrapper" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="c81de6b8c20641566add7747d9cb0e81">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1239741355">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.238325738" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>
