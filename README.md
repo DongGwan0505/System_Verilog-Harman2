@@ -27,6 +27,12 @@
 - 25-10-23 | GPO Peripheral (APB 연결) 통합
 - 25-10-24 | GPI / GPIO Peripheral 추가 → MCU 완성
 - 25-10-29 | AXI4_Lite Master & Slave 제작
+- 25-10-30 | IP 사용한 Master & Slave 제작
+- 25-11-03 | IP를 활용한 micro balze CPU의 FPGA
+- 25-11-04 | Stack 구조 설계
+- 25-11-05 | Button & upcounter 추가
+- 25-11-06 | Interrupt를 활용한 upcounter
+- 25-11-07 | SPI 통신 모듈 설계를 통한 upcounter 제작
 
 
 ⚙️ 주요 기술 구성
